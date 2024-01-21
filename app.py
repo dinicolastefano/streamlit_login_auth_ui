@@ -6,7 +6,7 @@ __login__obj = __login__(auth_token = "pk_prod_RKE7Q0BBDKMTDTKJVG15EKPXFXT4",
                     width = 200, height = 250,
                     logout_button_name = 'Logout', hide_menu_bool = False,
                     hide_footer_bool = False,
-                    lottie_url = 'https://assets2.lottiefiles.com/packages/lf20_jcikwtux.json')
+                    lottie_url = 'https://budgyai-ksk3w7wlp2yic2cuobbpsr.streamlit.app/')
 
 LOGGED_IN= __login__obj.build_login_ui()
 username= __login__obj.get_username()
